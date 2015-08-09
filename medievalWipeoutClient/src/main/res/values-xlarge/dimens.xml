@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <dimen name="fieldHeight">480dp</dimen>
+    <dimen name="cardWidth">200dp</dimen>
+    <dimen name="cardHeight">160dp</dimen>
+    <dimen name="cardDetailWidth">200dp</dimen>
+    <dimen name="cardDetailHeight">240dp</dimen>
+    <dimen name="smallIconWidth">35dp</dimen>    
+</resources>

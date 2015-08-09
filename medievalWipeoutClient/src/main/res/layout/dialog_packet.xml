@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/packetCards"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <com.guntzergames.medievalwipeout.layouts.CardLayout
+            android:id="@+id/packetCard0"
+            android:background="@drawable/card_border_highlightable"
+            android:layout_width="@dimen/cardWidth"
+            android:layout_height="@dimen/cardHeight" />
+
+        <com.guntzergames.medievalwipeout.layouts.CardLayout
+            android:id="@+id/packetCard1"
+            android:background="@drawable/card_border_highlightable"
+            android:layout_width="@dimen/cardWidth"
+            android:layout_height="@dimen/cardHeight" />
+
+        <com.guntzergames.medievalwipeout.layouts.CardLayout
+            android:id="@+id/packetCard2"
+            android:background="@drawable/card_border_highlightable"
+            android:layout_width="@dimen/cardWidth"
+            android:layout_height="@dimen/cardHeight" />
+
+        <com.guntzergames.medievalwipeout.layouts.CardLayout
+            android:id="@+id/packetCard3"
+            android:background="@drawable/card_border_highlightable"
+            android:layout_width="@dimen/cardWidth"
+            android:layout_height="@dimen/cardHeight" />
+
+        <com.guntzergames.medievalwipeout.layouts.CardLayout
+            android:id="@+id/packetCard4"
+            android:background="@drawable/card_border_highlightable"
+            android:layout_width="@dimen/cardWidth"
+            android:layout_height="@dimen/cardHeight" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/okPacket"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/ok" />
+
+</LinearLayout>

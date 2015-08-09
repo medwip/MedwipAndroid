@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/card_background"
+    android:orientation="vertical" >
+
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp" >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|center_horizontal"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/cardLayoutImage"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/cardDetailImageHeight"
+                android:contentDescription="@string/not_initialized"
+                android:background="@drawable/image_card_border"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/card_goblin_pirate_large" />
+
+            <TextView
+                android:id="@+id/cardName"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/skill_background"
+                android:text="@string/not_initialized" />
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/cardDefensorImage"
+            style="@style/Skill"
+            android:layout_width="@dimen/smallIconWidth"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top|left"
+            android:adjustViewBounds="true"
+            android:contentDescription="@string/not_initialized"
+            android:src="@drawable/defense" />
+
+        <ImageView
+            android:id="@+id/cardArcheryImage"
+            android:layout_width="@dimen/smallIconWidth"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top|right"
+            android:adjustViewBounds="true"
+            android:contentDescription="@string/not_initialized"
+            android:src="@drawable/archery" />
+
+        <TextView
+            android:id="@+id/cardAttackText"
+            android:layout_width="@dimen/smallIconWidth"
+            android:layout_height="@dimen/smallIconWidth"
+            android:layout_gravity="bottom|left"
+            android:background="@drawable/attack"
+            android:text="@string/not_initialized" />
+
+        <TextView
+            android:id="@+id/cardLifePointsText"
+            android:layout_width="@dimen/smallIconWidth"
+            android:layout_height="@dimen/smallIconWidth"
+            android:layout_gravity="bottom|right"
+            android:background="@drawable/life"
+            android:textSize="10sp"
+            android:text="@string/not_initialized" />
+    </FrameLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/cardGold"
+            android:layout_width="@dimen/smallIconWidth"
+            android:layout_height="@dimen/smallIconWidth"
+            android:layout_gravity="left"
+            android:background="@drawable/gold"
+            android:text="@string/not_initialized"
+            android:visibility="invisible" />
+
+        <TextView
+            android:id="@+id/cardFaith"
+            android:layout_width="@dimen/smallIconWidth"
+            android:layout_height="@dimen/smallIconWidth"
+            android:layout_gravity="right|end"
+            android:background="@drawable/faith"
+            android:text="@string/not_initialized"
+            android:visibility="invisible" />
+
+        <TextView
+            android:id="@+id/cardAlchemy"
+            android:layout_width="@dimen/smallIconWidth"
+            android:layout_height="@dimen/smallIconWidth"
+            android:layout_gravity="right|end"
+            android:background="@drawable/alchemy"
+            android:text="@string/not_initialized"
+            android:visibility="invisible" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/cardSkills"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/not_initialized"
+        android:visibility="invisible" />
+
+    <com.guntzergames.medievalwipeout.layouts.ElementLayout
+        android:id="@+id/numberOfCardsLayout"
+        style="@style/CardStyle.LifePoints"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="invisible" />
+
+</LinearLayout>

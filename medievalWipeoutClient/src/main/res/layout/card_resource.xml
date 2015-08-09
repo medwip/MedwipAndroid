@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/card_border"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/cardResourceTrade"
+        style="@style/Skill.Resource"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|left"
+        android:drawableLeft="@drawable/trade"
+        android:text="@string/not_initialized" />
+
+    <TextView
+        android:id="@+id/cardResourceDefense"
+        style="@style/Skill.Resource"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|left"
+        android:drawableLeft="@drawable/defense"
+        android:text="@string/not_initialized" />
+
+    <TextView
+        android:id="@+id/cardResourceFaith"
+        style="@style/Skill.Resource"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|left"
+        android:drawableLeft="@drawable/faith"
+        android:text="@string/not_initialized" />
+
+    <TextView
+        android:id="@+id/cardResourceAlchemy"
+        style="@style/Skill.Resource"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|left"
+        android:drawableLeft="@drawable/alchemy"
+        android:text="@string/not_initialized" />
+
+    <ImageView
+        android:id="@+id/cardLayoutImage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/not_initialized"
+        android:visibility="invisible" />
+
+    <TextView
+        android:id="@+id/cardLayoutName"
+        style="@style/CardStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="invisible" />
+
+</LinearLayout>

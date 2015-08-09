@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:left="0dp"
+        android:top="0dp"
+        android:bottom="0dp">
+        <bitmap
+            android:gravity="fill_horizontal|top|clip_vertical"
+            android:src="@drawable/background" />
+    </item>
+    <item android:drawable="@drawable/animation_highlight" />
+    <item android:drawable="@drawable/animation_target" />
+    
+</layer-list>

@@ -1,0 +1,37 @@
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="text_size_title">5dp</dimen>
+    
+    <dimen name="elementPaddingRight">12dp</dimen>
+    <dimen name="elementPaddingRightInternal">6dp</dimen>
+    <dimen name="elementPaddingRightLeft">3dp</dimen>
+    
+    <dimen name="buttonTextSize">10sp</dimen>
+    
+    <dimen name="cardElementWidth">30dp</dimen>
+    <dimen name="cardElementHeight">20dp</dimen>
+    <dimen name="cardWidth">60dp</dimen>
+    <dimen name="cardHeight">80dp</dimen>
+    <dimen name="cardDetailWidth">120dp</dimen>
+    <dimen name="cardDetailHeight">160dp</dimen>
+    <dimen name="cardImageWidth">40dp</dimen>
+    <dimen name="cardDetailImageHeight">50dp</dimen>
+    <dimen name="cardDetailFrameHeight">120dp</dimen>
+    <dimen name="cardModelImageWidth">50dp</dimen>
+    <dimen name="cardModelNameWidth">50dp</dimen>
+    <dimen name="cardModelListWidth">120dp</dimen>
+    <dimen name="cardModelListHeight">200dp</dimen>
+    
+    <dimen name="smallIconWidth">15dp</dimen>
+    
+    <dimen name="fieldHeight">90dp</dimen>
+    <dimen name="playerHandHeight">120dp</dimen>
+    <dimen name="zoneHeight">160dp</dimen>
+    <dimen name="collectionElementRowText">10sp</dimen>
+    
+    <dimen name="increaseDecreaseTextWidth">20sp</dimen>
+    
+</resources>

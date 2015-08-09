@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <style name="CardStyle">
+        <item name="android:textSize">10sp</item>
+    </style>
+
+    <style name="CardStyle.Attack">
+        <item name="android:textColor">#F00</item>
+    </style>
+
+    <style name="CardStyle.LifePoints">
+        <item name="android:textColor">@color/lifePointsColor</item>
+    </style>
+    
+    <style name="FieldStyle">
+        <item name="android:background">@drawable/background</item>
+    </style>
+
+    <style name="FieldStyle.Defense">
+        <item name="android:background">@color/com_facebook_blue</item>
+    </style>
+
+    <style name="Section" parent="@android:style/TextAppearance.Large">
+        <item name="android:textColor">#333</item>
+        <item name="android:typeface">normal</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:background">#FFF</item>
+    </style>
+
+</resources>

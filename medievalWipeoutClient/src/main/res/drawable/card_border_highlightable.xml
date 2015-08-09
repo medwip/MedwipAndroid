@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item android:drawable="@drawable/card_border"/>
+    <item android:drawable="@drawable/card_border_active" android:alpha="0"/>
+    <item android:drawable="@drawable/animation_highlight" android:alpha="0"/>
+    <item android:drawable="@drawable/animation_target" android:alpha="0"/>
+    
+</layer-list>

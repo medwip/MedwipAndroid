@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<transition xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item>
+        <layer-list>
+            <item android:background="@drawable/frame_border"/>
+            <item>
+                <shape>
+                    <stroke
+                        android:width="5dp"
+                        android:color="@color/com_facebook_blue" />
+                </shape>
+            </item>
+        </layer-list>
+    </item>
+    <item android:background="@drawable/frame_border">
+        <layer-list>
+            <item android:background="@drawable/frame_border"/>
+            <item>
+                <shape>
+                    <stroke
+                        android:width="5dp"
+                        android:color="@color/com_facebook_blue" />
+                </shape>
+            </item>
+        </layer-list>
+    </item>
+
+</transition>

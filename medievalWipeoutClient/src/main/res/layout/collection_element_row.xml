@@ -1,0 +1,48 @@
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="top"
+    android:paddingTop="0dip" >
+
+    <LinearLayout
+        android:layout_width="110dp"
+        android:layout_height="match_parent"
+        android:paddingBottom="5dp"
+        android:paddingLeft="10dp"
+        android:paddingTop="5dp"
+        android:background="@drawable/card_border" >
+
+        <ImageView
+            android:id="@+id/cardLayoutImage"
+            android:layout_width="@dimen/cardModelImageWidth"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left|top"
+            android:scaleType="centerCrop"
+            android:contentDescription="@string/not_initialized" />
+
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="@dimen/cardModelNameWidth"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left|center_vertical"
+            android:layout_marginLeft="10dip"
+            android:layout_marginTop="4dip"
+            android:layout_weight="1"
+            android:textColor="#000000"
+            android:textSize="@dimen/collectionElementRowText" />
+
+        <TextView
+            android:id="@+id/numberOfCards"
+            android:layout_width="@dimen/cardModelNameWidth"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left|center_vertical"
+            android:layout_marginLeft="10dip"
+            android:layout_marginTop="4dip"
+            android:layout_weight="1"
+            android:gravity="left"
+            android:text=""
+            android:textColor="#000000"
+            android:textSize="@dimen/collectionElementRowText" />
+    </LinearLayout>
+
+</TableLayout>

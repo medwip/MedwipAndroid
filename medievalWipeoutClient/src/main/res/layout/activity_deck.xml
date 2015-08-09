@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res/com.guntzergames.medievalwipeout.activities"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    tools:context="com.guntzergames.medievalwipeout.activities.DeckTemplateActivity" >
+
+    <LinearLayout
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <Spinner
+                android:id="@+id/deckTemplateSpinner"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <EditText
+                    android:id="@+id/newDeckLibel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:inputType="text"
+                    android:visibility="invisible" />
+
+                <Button
+                    android:id="@+id/newDeckButton"
+                    style="@style/Button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:contentDescription="@string/new_deck"
+                    android:text="@string/new_deck" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <GridLayout
+            android:id="@+id/cardGrid"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:columnCount="4"
+            android:rowCount="6" >
+
+            <com.guntzergames.medievalwipeout.layouts.CardLayout
+                android:id="@+id/card0_0"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="0"
+                android:layout_row="0" />
+
+            <com.guntzergames.medievalwipeout.layouts.CardLayout
+                android:id="@+id/card0_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="1"
+                android:layout_row="0" />
+
+            <com.guntzergames.medievalwipeout.layouts.CardLayout
+                android:id="@+id/card0_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="2"
+                android:layout_row="0" />
+
+            <com.guntzergames.medievalwipeout.layouts.CardLayout
+                android:id="@+id/card0_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="3"
+                android:layout_row="0" />
+
+            <com.guntzergames.medievalwipeout.layouts.CardLayout
+                android:id="@+id/card1_0"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="0"
+                android:layout_row="1" />
+
+            <com.guntzergames.medievalwipeout.layouts.CardLayout
+                android:id="@+id/card1_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="1"
+                android:layout_row="1" />
+
+            <com.guntzergames.medievalwipeout.layouts.CardLayout
+                android:id="@+id/card1_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="2"
+                android:layout_row="1" />
+
+            <com.guntzergames.medievalwipeout.layouts.CardLayout
+                android:id="@+id/card1_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="3"
+                android:layout_row="1" />
+
+            <com.guntzergames.medievalwipeout.layouts.CardLayout
+                android:id="@+id/card2_0"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="2"
+                android:layout_row="0" />
+
+            <com.guntzergames.medievalwipeout.layouts.CardLayout
+                android:id="@+id/card2_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="2"
+                android:layout_row="1" />
+        </GridLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <ListView
+            android:id="@+id/cardModelList"
+            android:layout_width="@dimen/cardModelListWidth"
+            android:layout_height="@dimen/cardModelListHeight" />
+
+        <Button
+            android:id="@+id/openPacketButton"
+            style="@style/Button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/open_packet"
+            android:text="@string/open_packet" />
+        
+        <Button
+            android:id="@+id/homeButton"
+            style="@style/Button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/home"
+            android:text="@string/home" />
+    </LinearLayout>
+
+</LinearLayout>
