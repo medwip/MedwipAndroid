@@ -45,3 +45,11 @@ Temporary Items
 .idea
 build
 .gradle/2.2.1/taskArtifacts/cache.properties
+facebookSDK/facebookSDK.iml
+MedwipAndroid.iml
+medievalWipeoutClient/medievalWipeoutClient.iml
+MedievalWipeoutClient.iml
+gradlew.bat
+gradle/wrapper/gradle-wrapper.properties
+gradlew
+gradle/wrapper/gradle-wrapper.jar
